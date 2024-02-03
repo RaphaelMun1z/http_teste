@@ -1,0 +1,86 @@
+.addProduct {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: 5em 3em;
+    border-radius: 10px;
+    gap: 20px;
+    background-color: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin: 0 auto;
+}
+
+.addProduct h1 {
+    font-size: 30pt;
+    text-transform: capitalize;
+    color: #222;
+    font-weight: 700;
+}
+
+.addProduct form {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    gap: 20px;
+}
+
+form label {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    gap: 5px;
+}
+
+form label p {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    font-size: 20pt;
+    color: #222;
+    font-weight: 300;
+}
+
+form label input {
+    position: relative;
+    display: flex;
+    width: 500px;
+    font-size: 20pt;
+    border: none;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    padding: .5em 1em;
+    height: fit-content;
+    font-weight: 300;
+    color: #222;
+}
+
+form>input {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    border: none;
+    background-color: rgb(34, 216, 34);
+    border-radius: 10px;
+    font-size: 20pt;
+    padding: .5em 1em;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form>input:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
